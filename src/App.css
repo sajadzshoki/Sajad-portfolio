@@ -1,38 +1,273 @@
-.App {
-  text-align: center;
+/* ---------------------------------- reset --------------------------------- */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* --------------------------------- colors --------------------------------- */
+:root{
+   --white:rgb(255, 255, 255);
+   --black:rgb(0, 0, 0);
+   --gray:rgb(40, 44, 49);
+   --gray-light:#626367;
+   --gray-dark:#1a1d26;
+   --gray-darker:#0c0f18;
+   
+   --green:#a2ff00;
+   --green-dark:#3fd300;
+
+   
+ }
+ 
+ /* ---------------------------------- utils --------------------------------- */
+ body{
+    background-color:var(--gray-dark);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    /* font-family: "Sofia", sans-serif; */
+ }
+ a{
+   color:var(--white) ;
+   text-decoration: none;
+   cursor: pointer;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+   color: var(--white);
+   font-weight:300;
+}
+p{
+   color: var(--white);
+}
+.btn{
+   max-width: 12rem;
+   background-color: var(--green);
+   border:none;
+   border-radius: 15px;
+   padding: 0.8rem;
+   box-shadow: inset 0px 0px 5px var(--black);
+   font-size: 1rem;
+}
+.btn:hover{
+   box-shadow: 0px 0px 10px var(--gray-light);
+}
+.btn:active{
+   background-color: var(--green-dark);
+   box-shadow: inset 0px 0px 10px var(--green);
+}
+/* --------------------------------- navbar --------------------------------- */
+.navbar{
+   background-color: var(--gray);
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+.navbar ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
+.navbar ul li {
+   list-style: none;
+   padding: 0.8rem;
+   margin: 0.2rem;
+   transition: 0.2s all;
+}
+.navbar ul li:hover{
+   background-color:var(--gray-light) ;
+   border-radius: 25px;
+   
+}
+/* ------------------------------ social media ------------------------------ */
+.social-media{
+   display: flex;
+   flex-direction: column;
+   width: 60px;
+   position: fixed;
+   top: 38%;
+   left: 1rem;
+   z-index: 10;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.social-media i{
+   font-size: 3rem ;
+   padding: 0.2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.social-media-btn{
+   width: 60px;
+   background-color: var(--black);
+   border-radius: 50%;
+   padding: 0;
+   
+   margin: 0.5rem 0rem;
+   transition: 0.3s all;
+}
+.social-media-btn:hover{
+   box-shadow:  0px 0px 15px var(--green);
+   /* filter:invert(200); */
+   margin: 0.5rem 0.5rem;
+   
+}
+/* ---------------------------------- home ---------------------------------- */
+.home{
+   display: flex;
+   justify-content: space-evenly;
+   margin:3rem 0rem;
+}
+.home-texts{
+   margin-top: 8rem;
+}
+.home-texts h1{
+   font-family: "Sofia", sans-serif;
+   font-size: 3rem;
+}
+.home-texts span{
+   color: var(--green);
+   font-size: 4rem;
+   
+}
+.home-texts p{
+   margin-top: 1rem;
+   font-size: 1.2rem;
+}
+.btn-group{
+   margin: 1rem 0rem;
+   
+}
+.contact-me-btn{
+   background-color: var(--gray-light);
+   color: var(--white);
+   margin-left: 1rem;
+}
+.my-pic{
+   width: 400px;
+   filter: grayscale(1);
+   transition: 0.3s all;
+}
+.my-pic:hover{
+   filter: grayscale(0);
+   width: 450px;
+   margin-top: -3rem;
+}
+/* --------------------------------- skills --------------------------------- */
+.skills-header{
+   font-family: "Sofia", sans-serif;
+   color: var(--green);
+   text-align: center;
+   font-size: 4rem;
+}
+.skills-box{
+   background-color: var(--gray-darker);
+   width: 70%;
+   min-height: 200px;
+   border-radius: 20px;
+   margin: 2rem auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+   align-items: center;
+   
+}
+.skills-box i {
+   font-size: 6rem;
+}
+.skills-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 2rem 0rem;
+}
+.bxl-html5{
+   color: #ff7b00;
+}
+.bxl-css3{
+   color: #005eff;
+}
+.bxl-javascript{
+   color: #ffee00;
+}
+.bxl-react{
+   color: #00ddff;
+}
+.bxl-git{
+   color: #ff5900;
+}
+.bxl-python{
+   color: #ffffff;
+}
+/* -------------------------------- projects -------------------------------- */
+.projects{
+   background-color: #005eff4a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+}
+.projects-header{
+   font-family: "Sofia", sans-serif;
+   color: var(--green);
+   text-align: center;
+   font-size: 4rem;
+   margin-top: 5rem;
+}
+.project-card{
+   width: 350px;
+   height: 500px;
+   border-radius: 15px;
+   background-color: var(--gray-darker);
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 1rem;
+   position: relative;
+   
+
+}
+.project-image{
+   max-width: 100%;
+   height: 45%;
+   transition: 0.3s all;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.project-title{
+   font-weight: 400;
+   margin-top: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+.project-card p{
+   padding: 1rem ;
 }
+.project-links{
+   position: absolute;
+   bottom: 0;
+   background-color: var(--gray-dark);
+   width: 100%;
+   height: 13%;
+   display: flex;
+   align-items: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.project-links a{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   transition: 0.3s all;  
+}
+.project-link-github{
+   border-right: solid 1px var(--white);
+}
+.project-links a:hover{
+   background-color: var(--gray-light);
+}
+.project-links i {
+   font-size: 3rem;
+   transition: 0.3s ease-in-out;
+}
+.project-links i:hover {
+   font-size: 3.5rem;
+   color: var(--green-dark);
 }

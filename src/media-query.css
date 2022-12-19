@@ -1,0 +1,15 @@
+/* --------------------------------- tablet --------------------------------- */
+@media screen and (max-width: 900px) {
+    .navbar ul {
+        gap: 0rem;
+     }
+    .home{
+        flex-direction: column;
+        margin:0rem;
+        justify-content: center;
+        align-items: center;
+     }
+     .home-texts{
+        margin-top: 3rem;
+     }
+}
