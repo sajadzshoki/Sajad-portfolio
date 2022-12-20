@@ -1,15 +1,79 @@
+:root {
+  --white:rgb(255, 255, 255);
+  --black:rgb(0, 0, 0);
+  --gray:rgb(40, 44, 49);
+  --gray-light:#626367;
+  --gray-dark:#1a1d26;
+  --gray-darker:#0c0f18;
+  --my-green:#a2ff00;
+  --my-green-dark:#3fd300;
+
+}
+/* ---------------------------------- phone --------------------------------- */
+
+@media screen and (max-width: 600px) {
+   .navbar h2 {
+      font-size: 1rem;
+    }
+    .home-texts h1 {
+      font-family: "Sofia", sans-serif;
+      font-size: 1rem;
+    }
+}
+
+
 /* --------------------------------- tablet --------------------------------- */
 @media screen and (max-width: 900px) {
-    .navbar ul {
-        gap: 0rem;
-     }
-    .home{
-        flex-direction: column;
-        margin:0rem;
-        justify-content: center;
-        align-items: center;
-     }
-     .home-texts{
-        margin-top: 3rem;
-     }
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar li {
+    display: none;
+  }
+  .navbar i {
+    display: block;
+    font-size: 2rem;
+    color: var(--white);
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .navbar h2 {
+    display: block;
+    color: var(--green-dark);
+    font-family: "Sofia";
+  }
+  /* ---------------------------------- home ---------------------------------- */
+  .home {
+    flex-direction: column;
+    margin: 0rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-texts {
+    margin-top: 2rem;
+  }
+  .home-texts h1 {
+    font-family: "Sofia", sans-serif;
+    font-size: 2rem;
+  }
+  .my-pic {
+    width: 250px;
+  }
+  .my-pic:hover {
+    width: 280px;
+    margin-top: -1rem;
+  }
+  /* --------------------------------- skills --------------------------------- */
+  .skills-header {
+    margin-top: 4rem;
+  }
+  .skills-box {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .skills-box i {
+    font-size: 4rem;
+  }
 }
