@@ -5,8 +5,6 @@ const Navbar = () => {
   
   return (
     <nav className="navbar" >
-      <i class='bx bx-menu'></i>
-      <h2>SAJAD PORTFOLIO</h2>
       <ul>
         <li>
           <a href="#">HOME</a>

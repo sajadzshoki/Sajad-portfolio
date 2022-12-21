@@ -1,27 +1,26 @@
 import React from "react";
+import ProjectCard from "./ProjectCard";
+import projectsData from '../projectsData';
 
-const Projects = (props) => {
+const Projects = () => {
+  const projects = projectsData.map(item=>{
+    return(
+      <ProjectCard
+      key={item.id}
+      image={item.image}
+      title={item.title}
+      description={item.description}
+      githubLink={item.githubLink}
+      projectDemo={item.projectDemo}
+      />
+    )
+  })
   return (
-    
-    <div>
-
-        <div className="project-card">
-          <img src={`../images/${props.image}`}  alt={props.title} className="project-image" />
-          <h2 className="project-title">{props.title}</h2>
-          <p>
-            {props.description}
-          </p>
-          <div className="project-links">
-            <a href={props.githubLink} title="Github" className="project-link-github">
-              <i class="bx bxl-github"></i>
-            </a>
-            <a href={props.projectDemo} title="Source Code">
-              <i class="bx bx-code-alt"></i>
-            </a>
-          </div>
-        </div>
-       </div>
-    
+    <div className="project">
+      <h1 className="projects-header">My Recent Projects</h1>
+      <section className="Info-card">{projects}</section>
+      <button className="btn all-projects-link">See all of my Projects</button>
+    </div>
   );
 };
 
