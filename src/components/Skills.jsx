@@ -1,5 +1,7 @@
+/* eslint-disable react/style-prop-object */
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+
 
 const Skills = () => {
   return (
@@ -30,6 +32,10 @@ const Skills = () => {
           <div className="skills-container">
             <i class="bx bxl-python"></i>
             <p>PYTHON</p>
+          </div>
+          <div className="skills-container">
+          <i class='bx bx-images'></i>
+            <p>PHOTOSHOP</p>
           </div>
         </div>
       </AnimationOnScroll>

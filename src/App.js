@@ -1,26 +1,15 @@
-import React from 'react';
-import './App.css';
-import './media-query.css'
+import React from "react";
+import "./styles/App.css";
+import "./styles/media-query.css";
 
-import Home from './components/Home';
-/* ------------------------------------ Components ----------------------------------- */
-import Navbar from "./components/Navbar"
-import SocialMedia from './components/SocialMedia';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
-
+// import AllProjects from "./pages/AllProjects";
+import HomePage from "./pages/HomePage";
 
 function App() {
-
   return (
-    <React.Fragment >
-      <Navbar/>
-      <SocialMedia/>
-      <Home/>
-      <Skills/>
-      <Projects/>
-            <Footer/>
+    <React.Fragment>
+      <HomePage />
+      {/* <AllProjects/> */}
     </React.Fragment>
   );
 }

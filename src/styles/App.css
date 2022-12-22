@@ -1,0 +1,423 @@
+/* ---------------------------------- reset --------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* --------------------------------- colors --------------------------------- */
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --black-low: rgba(0, 0, 0, 0.7);
+  --gray: rgb(40, 44, 49);
+  --gray-light: #626367;
+  --gray-dark: #1a1d26;
+  --gray-darker: #0c0f18;
+  --my-green: #a2ff00;
+  --my-green-dark: #3fd300;
+}
+
+/* ---------------------------------- utils --------------------------------- */
+body {
+  background-color: var(--gray-dark);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: "Sofia", sans-serif; */
+}
+a {
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white);
+  font-weight: 300;
+}
+p {
+  color: var(--white);
+}
+.btn {
+  max-width: 12rem;
+  background-color: var(--my-green);
+  border: none;
+  border-radius: 15px;
+  padding: 0.8rem;
+  box-shadow: inset 0px 0px 5px var(--black);
+  font-size: 1rem;
+}
+.btn:hover {
+  box-shadow: 0px 0px 10px var(--gray-light);
+}
+.btn:active {
+  background-color: var(--my-green-dark);
+  box-shadow: inset 0px 0px 10px var(--my-green);
+}
+/* --------------------------------- navbar --------------------------------- */
+.navbar {
+  background-color: var(--black-low);
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 0.8rem;
+  margin: 0.2rem;
+  transition: 0.2s all;
+}
+.navbar ul li:hover {
+  background-color: var(--gray-light);
+  border-radius: 10px;
+}
+/* ------------------------------ social media ------------------------------ */
+.social-media {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  position: fixed;
+  top: 38%;
+  left: 1rem;
+  z-index: 10;
+}
+
+.social-media i {
+  font-size: 3rem;
+  padding: 0.2rem;
+}
+
+.social-media-btn {
+  width: 60px;
+  background-color: var(--black);
+  border-radius: 50%;
+  padding: 0;
+  margin: 0.5rem 0rem;
+  transition: 0.3s all;
+}
+.social-media-btn:hover {
+  box-shadow: 0px 0px 15px var(--my-green-dark);
+  margin: 0.5rem 0.5rem;
+}
+/* ---------------------------------- home ---------------------------------- */
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 0rem;
+}
+.home-texts {
+  margin-top: 8rem;
+}
+.home-texts h1 {
+  font-family: "rancho", sans-serif;
+  font-size: 5rem;
+}
+.home-texts span {
+  color: var(--my-green);
+  font-size: 5rem;
+}
+
+.home-texts p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.btn-group {
+  margin: 1rem 0rem;
+}
+.contact-me-btn {
+  background-color: var(--gray-light);
+  color: var(--white);
+  margin-left: 1rem;
+}
+.my-pic {
+  width: 400px;
+  filter: grayscale(1);
+  transition: 0.5s all;
+}
+.my-pic:hover {
+  filter: grayscale(0);
+  transform: scale(1.15);
+  filter: drop-shadow(0px 0px 20px var(--gray-light));
+}
+/* --------------------------------- skills --------------------------------- */
+.skills-header {
+  font-family: "rancho", sans-serif;
+  color: var(--my-green);
+  text-align: center;
+  font-size: 5rem;
+}
+.skills-box {
+  background-color: var(--gray-darker);
+  width: 70%;
+  min-height: 200px;
+  border-radius: 20px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: center;
+}
+.skills-box i {
+  font-size: 6rem;
+}
+.skills-box i:hover {
+  filter: drop-shadow(0px 0px 2px var(--white));
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+
+.bxl-html5 {
+  color: #ff7b00;
+}
+.bxl-css3 {
+  color: #005eff;
+}
+.bxl-javascript {
+  color: #ffee00;
+}
+.bxl-react {
+  color: #00ddff;
+}
+.bxl-git {
+  color: #ff5900;
+}
+.bxl-python {
+  color: #ffffff;
+}
+.bx-images{
+   color: #003ea8;
+}
+/* -------------------------------- projects -------------------------------- */
+
+.Info-card {
+  margin: 2rem auto;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+.project {
+  width: 90%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects-header {
+  font-family: "rancho", sans-serif;
+  color: var(--my-green);
+  text-align: center;
+  font-size: 5rem;
+}
+.project-card {
+  width: 300px;
+  min-height: 450px;
+  border-radius: 2px;
+  background-color: var(--gray-darker);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 1rem;
+  position: relative;
+  transition: 0.5s all;
+}
+.project-card:hover {
+  box-shadow: var(--gray-light) 0px 0px 20px;
+}
+.project-image {
+  width: 17rem;
+  height: 12rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: 0.5s all;
+}
+.project-image:hover {
+  transform: scale(1.2);
+}
+.project-title {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.project-card p {
+  padding: 1rem;
+}
+.project-links {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--gray);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+.project-links a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s all;
+}
+.project-link-github {
+  border-right: solid 1px var(--white);
+}
+.project-links a:hover {
+  background-color: var(--gray-light);
+}
+.project-links i {
+  font-size: 2.5rem;
+  transition: 0.3s ease-in-out;
+}
+.project-links a:hover i {
+  transform: scale(1.2);
+  color: var(--black);
+}
+.all-projects-link {
+  text-align: center;
+}
+/* -------------------------------- about me -------------------------------- */
+
+.about-me-container{
+  width: 50%;
+  margin: 2rem auto;
+  background-color: var(--gray-darker);
+  border-left: solid 3px var(--my-green);
+
+}
+.about-me-header{
+  font-family: "rancho", sans-serif;
+  color: var(--my-green);
+  text-align: center;
+  font-size: 5rem;
+}
+.time-lines{
+  padding: 1rem;
+  margin: 0rem 2rem;
+  position: relative;
+  border-bottom: dotted 1px var(--white);
+}
+.time-lines:last-child{
+  border-bottom: none;
+}
+.about-me-texts{
+  transition: 0.4s all;
+  padding: 1rem;
+
+}
+.about-me-texts h1{
+  font-family: "rancho";
+  font-size: 2.5rem;
+}
+.about-me-texts p{
+  line-height: 1.7rem;
+}
+.about-me-texts span{
+  font-weight: 500;
+}
+.about-me-texts:hover{
+  transform: scale(1.3);
+  background-color: var(--gray);
+  border-radius: 10px;
+}
+.year{
+  position: absolute;
+  left: -7rem;
+  top: 40%;
+  transform: scale(1.5);
+  color: var(--gray-light);
+  
+
+}
+.year:hover{
+  text-shadow: 0px 0px 20px var(--my-green);
+  
+}
+.circle{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--my-green);
+  position: absolute;
+  left: -44px;
+  top: 40%;
+}
+
+/* --------------------------------- footer --------------------------------- */
+.footer {
+  width: 100%;
+  min-height: 200px;
+  bottom: 0;
+  background-color: var(--black);
+  padding: 1rem;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-title {
+  font-family: "rancho", sans-serif;
+  color: var(--my-green);
+  font-size: 3rem;
+}
+.contact-info p {
+  font-weight: 300;
+  margin: 0.8rem 0rem;
+}
+.contact-info a:hover {
+  color: var(--my-green-dark);
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-projects {
+  border-bottom: 1px solid var(--white);
+  padding: 1rem 0rem;
+  margin-bottom: 1rem;
+}
+.footer-projects a:hover{
+   color: var(--my-green-dark);
+}
+.footer-skills p,
+.footer-projects p {
+  font-weight: 100;
+}
+
+.copyright {
+  font-weight: 100;
+  text-align: center;
+  /* padding: 2rem 0rem; */
+}
+
+/* ---------------------------- all projects page --------------------------- */
+.all-projects {
+  margin: 2rem auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* align-items: center; */
+}
+
+
+ 
