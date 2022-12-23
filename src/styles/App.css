@@ -227,7 +227,7 @@ p {
 .project-card {
   width: 300px;
   min-height: 450px;
-  border-radius: 10px;
+  border-radius: 11px;
   background-color: var(--gray-darker);
   overflow: hidden;
   display: flex;
