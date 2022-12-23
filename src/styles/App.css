@@ -236,9 +236,12 @@ p {
   margin: 1rem 1rem;
   position: relative;
   transition: 0.5s all;
+  
 }
+
 .project-card:hover {
-  box-shadow: var(--gray-light) 0px 0px 20px;
+  box-shadow: inset 0px 0px 10px var(--gray-light);
+  transition: 0.5s all;
 }
 .project-image {
   width: 17rem;
@@ -404,15 +407,6 @@ p {
   font-weight: 100;
   text-align: center;
   /* padding: 2rem 0rem; */
-}
-
-/* ---------------------------- all projects page --------------------------- */
-.all-projects {
-  margin: 2rem auto;
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* align-items: center; */
 }
 
 

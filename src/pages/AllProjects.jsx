@@ -1,10 +1,11 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard";
+
 import projectsData from '../projectsData';
+import ProjectGallery from "../components/ProjectGallery";
 const AllProjects = () => {
   const projects = projectsData.map(item=>{
     return(
-      <ProjectCard
+      <ProjectGallery
       key={item.id}
       image={item.image}
       title={item.title}
@@ -17,7 +18,7 @@ const AllProjects = () => {
   })
   return (
     <div >
-      <h1 className="all-projects-header header">My projects</h1>
+      <h1 className="all-projects-header header">All Of My projects</h1>
       <section className="all-projects">{projects}</section>
     </div>
   );
