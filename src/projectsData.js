@@ -14,6 +14,7 @@ export default [
     description: "A simple Responsive social media app UI which I made with ReactJS and Material UI just to test and show my skills in using different libraries ",
     githubLink: "https://github.com/sajadzshoki/social-media-react-mui",
     projectDemo: "https://socialmedia-react-materialui.netlify.app/",
+    Technologies:"ReactJS , Material UI"
   },
   {
     id:2,
@@ -22,6 +23,7 @@ export default [
     description: "A ReactJS crypto price tracker App using a free Api.",
     githubLink: "https://github.com/sajadzshoki/React-Crypto-Prices",
     projectDemo: "https://crypto-prices-react-sajad.netlify.app/",
+    Technologies:"ReactJS , Css"
   },
   {
     id:3,
@@ -31,6 +33,7 @@ export default [
     it's a Music stream app UI `,
     githubLink: "https://github.com/sajadzshoki/Mytones",
     projectDemo: "https://sajadzshoki.github.io/Mytones/",
+    Technologies:"Html , Css"
   },
   {
     id:4,
@@ -39,6 +42,7 @@ export default [
     description: `I used this page in the "Mytones" project . it has a quite attractive animation which switch the the panels when you click on signup and signin button`,
     githubLink: "https://github.com/sajadzshoki/Mytones",
     projectDemo: "https://sajadzshoki.github.io/Mytones/",
+    Technologies:"Html , Css"
   },
   {
     id:5,
@@ -47,6 +51,7 @@ export default [
     description: "A simple notes app that you can Add and Remove your notes and it stores in your local storage . I made this app to master my skills while I was learning React states ",
     githubLink: "https://github.com/sajadzshoki/React-Notes_App",
     projectDemo: "https://636e5ac3d88dad2c53e2917d--react-notes-app-sajad.netlify.app/",
+    Technologies:"ReactJS  ,Css"
   },
   {
     id:6,
@@ -55,6 +60,7 @@ export default [
     description: "A full password generator that you can choose what things you want to include in your password and it's length. Made with ReactJS",
     githubLink: "https://github.com/sajadzshoki/React-Password-Generator",
     projectDemo: "https://reactjs-password-generator.netlify.app/",
+    Technologies:"ReactJS  ,Css"
   },
 
 ];

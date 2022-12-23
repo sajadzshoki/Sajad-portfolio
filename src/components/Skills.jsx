@@ -1,13 +1,13 @@
 /* eslint-disable react/style-prop-object */
 import React from "react";
-import { AnimationOnScroll } from "react-animation-on-scroll";
+
 
 
 const Skills = () => {
   return (
-    <div className="skills">
-      <h1 className="skills-header">My Skills</h1>
-      <AnimationOnScroll animateIn="animate__bounceIn">
+    <div className="skills" id="skill">
+      <h1 className="skills-header header">My Skills</h1>
+     
         <div className="skills-box">
           <div className="skills-container">
             <i class="bx bxl-html5"></i>
@@ -38,7 +38,7 @@ const Skills = () => {
             <p>PHOTOSHOP</p>
           </div>
         </div>
-      </AnimationOnScroll>
+      
     </div>
   );
 };

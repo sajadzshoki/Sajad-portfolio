@@ -3,7 +3,7 @@ import React from "react";
 const Footer = (props) => {
   return (
     <>
-      <div className="footer">
+      <div className="footer" id="footer">
         <div className="footer-container">
           <div className="contact-info">
             <h1>How To Contact Me</h1>

@@ -11,12 +11,13 @@ const AllProjects = () => {
       description={item.description}
       githubLink={item.githubLink}
       projectDemo={item.projectDemo}
+      techs={item.Technologies}
       />
     )
   })
   return (
     <div >
-      <h1>My projects</h1>
+      <h1 className="all-projects-header header">My projects</h1>
       <section className="all-projects">{projects}</section>
     </div>
   );

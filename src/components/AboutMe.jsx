@@ -2,9 +2,11 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div>
-      <h1 className="about-me-header">About Me</h1>
+    <div id="about-me">
+      <h1 className="about-me-header header">About Me</h1>
+        
       <div className="about-me-container">
+
         <div className="time-lines">
           <p className="year">2001</p>
           <div className="circle"></div>
@@ -18,6 +20,7 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
+       
         <div className="time-lines">
           <p className="year">
             2005
@@ -47,8 +50,8 @@ const AboutMe = () => {
             <p>
               In our school we hade a subject which was about Python . Although
               I have always wanted to learn programming but I didn't take it
-              serious for no reason and that one of my biggest REGRETS in my
-              life
+              serious for no reason and that is one of my biggest REGRETS in my
+              life .
             </p>
           </div>
         </div>
@@ -66,7 +69,7 @@ const AboutMe = () => {
               and photo editing with Photoshop.
               <br />
               But it wasn't permanent becuse I wanted to start learning
-              programming so I didn't have any time for it anymore.
+              programming so I didn't have any time for it anymore .But the good point is now I have quite good editing skills .
             </p>
           </div>
         </div>
@@ -75,15 +78,15 @@ const AboutMe = () => {
           <div className="circle"></div>
           <div className="about-me-texts">
             <h1>
-              Journey Begins Hello World<i class="bx bxl-c-plus-plus"></i>{" "}
+              Hello World <i class="bx bxl-c-plus-plus"></i>
               <i class="bx bxl-python"></i>
             </h1>
             <p>
-              I put my first steped in programming world with learning C++ basic
+              I stepped in programming world with learning C++ basic
               syntax ( for university ) and then Python becuse it was popular
-              and different languages to findout my favorite programming field .{" "}
+              and different languages to findout my favorite programming field .
               <br />
-              and this progress took me about 6 months Until . . .
+              This progress took me about 6 months Until . . .
             </p>
           </div>
         </div>
@@ -94,19 +97,20 @@ const AboutMe = () => {
           </p>
           <div className="circle"></div>
           <div className="about-me-texts">
-            <h1>
-              Journey Begins <i class="bx bx-bullseye"></i>
+            <h1 className="journey-h1">
+              Journey Begins  <i class="bx bx-bullseye"></i>
             </h1>
             <p>
               Finally with the help of one my best friends in university I
               started to focuse only on Web Development Front-end . In this time
               i learned
-              <span> HTML , CSS , JS , REACTJS , MUI , GIT , GITHUB , ...</span>
-              and i'm keep going .
+              <span> HTML , CSS , JS , REACTJS , MUI , GIT , GITHUB , ... </span>
+              and I'm keep going .
             </p>
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

@@ -57,6 +57,13 @@ p {
   background-color: var(--my-green-dark);
   box-shadow: inset 0px 0px 10px var(--my-green);
 }
+.header{
+  font-family: "rancho", sans-serif;
+  color: var(--my-green);
+  text-align: center;
+  font-size: 5rem;
+}
+
 /* --------------------------------- navbar --------------------------------- */
 .navbar {
   background-color: var(--black-low);
@@ -105,6 +112,7 @@ p {
   background-color: var(--black);
   border-radius: 50%;
   padding: 0;
+  border: black solid;
   margin: 0.5rem 0rem;
   transition: 0.3s all;
 }
@@ -153,12 +161,7 @@ p {
   filter: drop-shadow(0px 0px 20px var(--gray-light));
 }
 /* --------------------------------- skills --------------------------------- */
-.skills-header {
-  font-family: "rancho", sans-serif;
-  color: var(--my-green);
-  text-align: center;
-  font-size: 5rem;
-}
+
 .skills-box {
   background-color: var(--gray-darker);
   width: 70%;
@@ -220,16 +223,11 @@ p {
   flex-direction: column;
   align-items: center;
 }
-.projects-header {
-  font-family: "rancho", sans-serif;
-  color: var(--my-green);
-  text-align: center;
-  font-size: 5rem;
-}
+
 .project-card {
   width: 300px;
   min-height: 450px;
-  border-radius: 2px;
+  border-radius: 10px;
   background-color: var(--gray-darker);
   overflow: hidden;
   display: flex;
@@ -303,12 +301,7 @@ p {
   border-left: solid 3px var(--my-green);
 
 }
-.about-me-header{
-  font-family: "rancho", sans-serif;
-  color: var(--my-green);
-  text-align: center;
-  font-size: 5rem;
-}
+
 .time-lines{
   padding: 1rem;
   margin: 0rem 2rem;
@@ -326,6 +319,9 @@ p {
 .about-me-texts h1{
   font-family: "rancho";
   font-size: 2.5rem;
+}
+.journey-h1{
+  color: rgb(255, 64, 64);
 }
 .about-me-texts p{
   line-height: 1.7rem;
