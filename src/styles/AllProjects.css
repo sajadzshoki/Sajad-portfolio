@@ -86,3 +86,35 @@ width: 17rem;
     background-color: var(--my-green);
     color: var(--black);
 }
+
+@media screen and (max-width: 900px){
+
+  .all-project-card {
+    width: 70%;
+    padding: 1rem;
+    min-height: 250px;
+    border-radius: 50px;
+    background-color: var(--gray-darker);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    position: relative;
+    transition: 0.5s all;
+    box-shadow: inset 0px 0px 8px var(--gray-light);
+  }
+  .all-project-links{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    right: 0rem;
+    
+}
+.all-projects-info {
+  display: flex;
+  flex-direction: column;
+  margin:1rem 1rem ;
+}
+  
+}

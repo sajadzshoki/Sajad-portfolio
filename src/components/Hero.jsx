@@ -34,6 +34,7 @@ const Home = () => {
           />
         </a>
       </div>
+      <div className="circle1"></div>
     </div>
   );
 };

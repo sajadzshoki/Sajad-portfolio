@@ -20,8 +20,6 @@
     
   .navbar ul {
     gap: 0.1rem;
-    
-  
   }
   .navbar ul li {
     list-style: none;
@@ -53,13 +51,15 @@
   .projects-header {
     font-size: 3rem;
   }
-  .project {
-    width: 90%;
-    margin: 6rem auto;
+  .Info-card {
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+  }
+  .project {
+    width: 100%;
+    margin: 6rem auto;
   }
   .project-card {
     width: 280px;
@@ -104,7 +104,7 @@
   .navbar ul {
     gap: 1rem;
   }
-  /* ---------------------------------- home ---------------------------------- */
+  /* home */
   .home {
     flex-direction: column;
     margin: 0rem;

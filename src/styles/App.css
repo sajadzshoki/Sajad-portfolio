@@ -34,7 +34,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
   color: var(--white);
   font-weight: 300;
 }
@@ -57,7 +57,7 @@ p {
   background-color: var(--my-green-dark);
   box-shadow: inset 0px 0px 10px var(--my-green);
 }
-.header{
+.header {
   font-family: "rancho", sans-serif;
   color: var(--my-green);
   text-align: center;
@@ -67,7 +67,6 @@ p {
 /* --------------------------------- navbar --------------------------------- */
 .navbar {
   background-color: var(--black-low);
-
   position: sticky;
   top: 0;
   z-index: 10;
@@ -120,12 +119,14 @@ p {
   box-shadow: 0px 0px 15px var(--my-green-dark);
   margin: 0.5rem 0.5rem;
 }
-/* ---------------------------------- home ---------------------------------- */
+/* ---------------------------------- hero---------------------------------- */
 .home {
   display: flex;
   justify-content: space-evenly;
   margin: 3rem 0rem;
+  position: relative;
 }
+
 .home-texts {
   margin-top: 8rem;
 }
@@ -163,7 +164,7 @@ p {
 /* --------------------------------- skills --------------------------------- */
 
 .skills-box {
-  background-color: var(--gray-darker);
+  background-color: var(--black-low);
   width: 70%;
   min-height: 200px;
   border-radius: 20px;
@@ -204,8 +205,8 @@ p {
 .bxl-python {
   color: #ffffff;
 }
-.bx-images{
-   color: #003ea8;
+.bx-images {
+  color: #003ea8;
 }
 /* -------------------------------- projects -------------------------------- */
 
@@ -229,14 +230,12 @@ p {
   min-height: 450px;
   border-radius: 11px;
   background-color: var(--gray-darker);
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1rem 1rem;
   position: relative;
   transition: 0.5s all;
-  
 }
 
 .project-card:hover {
@@ -252,6 +251,7 @@ p {
 }
 .project-image:hover {
   transform: scale(1.2);
+  border-radius: 10px;
 }
 .project-title {
   font-weight: 400;
@@ -268,6 +268,7 @@ p {
   height: 10%;
   display: flex;
   align-items: center;
+  border-radius: 0px 0px 10px 10px;
 }
 .project-links a {
   width: 100%;
@@ -275,7 +276,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
   transition: 0.3s all;
 }
 .project-link-github {
@@ -297,60 +297,55 @@ p {
 }
 /* -------------------------------- about me -------------------------------- */
 
-.about-me-container{
+.about-me-container {
   width: 50%;
   margin: 2rem auto;
   background-color: var(--gray-darker);
   border-left: solid 3px var(--my-green);
-
 }
 
-.time-lines{
+.time-lines {
   padding: 1rem;
   margin: 0rem 2rem;
   position: relative;
   border-bottom: dotted 1px var(--white);
 }
-.time-lines:last-child{
+.time-lines:last-child {
   border-bottom: none;
 }
-.about-me-texts{
+.about-me-texts {
   transition: 0.4s all;
   padding: 1rem;
-
 }
-.about-me-texts h1{
+.about-me-texts h1 {
   font-family: "rancho";
   font-size: 2.5rem;
 }
-.journey-h1{
-  color: rgb(255, 64, 64);
+.journey-h1 {
+  color: rgb(60, 224, 0);
 }
-.about-me-texts p{
+.about-me-texts p {
   line-height: 1.7rem;
 }
-.about-me-texts span{
+.about-me-texts span {
   font-weight: 500;
 }
-.about-me-texts:hover{
+.about-me-texts:hover {
   transform: scale(1.3);
   background-color: var(--gray);
   border-radius: 10px;
 }
-.year{
+.year {
   position: absolute;
   left: -7rem;
   top: 40%;
   transform: scale(1.5);
   color: var(--gray-light);
-  
-
 }
-.year:hover{
+.year:hover {
   text-shadow: 0px 0px 20px var(--my-green);
-  
 }
-.circle{
+.circle {
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -358,6 +353,21 @@ p {
   position: absolute;
   left: -44px;
   top: 40%;
+}
+.bxs-hot {
+  color: rgb(255, 98, 0);
+}
+.bxs-error {
+  color: yellow;
+}
+.bxl-youtube {
+  color: rgb(255, 0, 0);
+}
+.bxl-c-plus-plus {
+  color: #005eff;
+}
+.bxl-python {
+  color: #ffee00;
 }
 
 /* --------------------------------- footer --------------------------------- */
@@ -395,8 +405,8 @@ p {
   padding: 1rem 0rem;
   margin-bottom: 1rem;
 }
-.footer-projects a:hover{
-   color: var(--my-green-dark);
+.footer-projects a:hover {
+  color: var(--my-green-dark);
 }
 .footer-skills p,
 .footer-projects p {
@@ -406,8 +416,4 @@ p {
 .copyright {
   font-weight: 100;
   text-align: center;
-  /* padding: 2rem 0rem; */
 }
-
-
- 
