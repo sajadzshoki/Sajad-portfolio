@@ -3,9 +3,11 @@ import React from "react";
 const ProjectCard = (props) => {
   return (
     <div className="project-card">
-      <a href={props.projectDemo} title="Live Demo">
-        <img src={props.image} alt={props.title} className="project-image" />
-      </a>
+      <div className="project-image-container">
+        <a href={props.projectDemo} title="Live Demo">
+          <img src={props.image} alt={props.title} className="project-image" />
+        </a>
+      </div>
       <h1 className="project-title">{props.title}</h1>
       <p>{props.description}</p>
 

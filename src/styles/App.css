@@ -34,7 +34,7 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   color: var(--white);
   font-weight: 300;
 }
@@ -210,15 +210,28 @@ p {
 }
 /* -------------------------------- projects -------------------------------- */
 
-.Info-card {
+/* .Info-card {
   margin: 2rem auto;
   width: 70%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
+} */
+.Info-card {
+  margin: 2rem auto;
+  width: 80%;
+  display: grid;
+  grid-auto-flow: column;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+
 }
+
 .project {
-  width: 90%;
+  width: 80%;
   margin: 5rem auto;
   display: flex;
   flex-direction: column;
@@ -242,12 +255,15 @@ p {
   box-shadow: inset 0px 0px 10px var(--gray-light);
   transition: 0.5s all;
 }
+.project-image-container {
+  min-height: 12rem;
+}
 .project-image {
   width: 17rem;
-  height: 12rem;
   border-radius: 5px;
   margin-top: 1rem;
   transition: 0.5s all;
+  padding: auto;
 }
 .project-image:hover {
   transform: scale(1.2);
@@ -283,6 +299,7 @@ p {
 }
 .project-links a:hover {
   background-color: var(--gray-light);
+  border-radius: 0px 0px 10px 10px;
 }
 .project-links i {
   font-size: 2.5rem;

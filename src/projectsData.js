@@ -5,6 +5,9 @@ import login from './images/login.png'
 import mytones from './images/mytones.png'
 import notes from './images/notes.png'
 import passgenerator from './images/passgenerator.png'
+import counter from './images/counter.png'
+import clock from './images/clock.png'
+import portfolio from './images/portfolio.png'
 
 export default [
   {
@@ -18,15 +21,6 @@ export default [
   },
   {
     id:2,
-    image: crypto,
-    title: "Crypto Prices",
-    description: "A ReactJS crypto price tracker App using a free Api.",
-    githubLink: "https://github.com/sajadzshoki/React-Crypto-Prices",
-    projectDemo: "https://crypto-prices-react-sajad.netlify.app/",
-    Technologies:"ReactJS , Css"
-  },
-  {
-    id:3,
     image: mytones,
     title: "Mytones",
     description: `The first website I made with pure "Html , Css" .
@@ -34,6 +28,15 @@ export default [
     githubLink: "https://github.com/sajadzshoki/Mytones",
     projectDemo: "https://sajadzshoki.github.io/Mytones/",
     Technologies:"Html , Css"
+  },
+  {
+    id:3,
+    image: crypto,
+    title: "Crypto Prices",
+    description: "A ReactJS crypto price tracker App using a free Api.",
+    githubLink: "https://github.com/sajadzshoki/React-Crypto-Prices",
+    projectDemo: "https://crypto-prices-react-sajad.netlify.app/",
+    Technologies:"ReactJS , Css"
   },
   {
     id:4,
@@ -61,6 +64,33 @@ export default [
     githubLink: "https://github.com/sajadzshoki/React-Password-Generator",
     projectDemo: "https://reactjs-password-generator.netlify.app/",
     Technologies:"ReactJS  ,Css"
+  },
+  {
+    id:7,
+    image: clock,
+    title: "Digital Clock ",
+    description: "A simple Clock which I made for practice when I  started to learn JavaScript ",
+    githubLink: "https://github.com/sajadzshoki/digital-clock",
+    projectDemo: "https://sajadzshoki.github.io/digital-clock/",
+    Technologies:"Html , Css , JavaScript"
+  },
+  {
+    id:8,
+    image: counter,
+    title: "Counter",
+    description: "My first Project with Javascript ",
+    githubLink: "https://github.com/sajadzshoki/Easy-Counter-js",
+    projectDemo: "https://sajadzshoki.github.io/Easy-Counter-js/",
+    Technologies:"Html , Css , JavaScript"
+  },
+  {
+    id:9,
+    image: portfolio,
+    title: "Portfolio",
+    description: "The website you are currently watching :)",
+    githubLink: "https://github.com/sajadzshoki/Sajad-portfolio",
+    projectDemo: "https://sajad-portfolio.netlify.app/",
+    Technologies:"ReactJs , Css "
   },
 
 ];
