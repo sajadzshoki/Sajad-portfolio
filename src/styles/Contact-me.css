@@ -1,0 +1,33 @@
+.contact-me {
+  background-color: var(--gray);
+  height: 100vh;
+  padding: 1rem;
+}
+.contact-container{
+    background-color: var(--gray-darker);
+    width: 40%;
+    margin:2rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.contact-form{
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width:80%;
+}
+input{
+    padding: 0rem 1rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 0.5rem 0rem;
+    
+}
+.input-label{
+    display: flex;
+    flex-direction: column;
+
+}

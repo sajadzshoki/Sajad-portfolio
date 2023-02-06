@@ -21,7 +21,9 @@ const Navbar = () => {
           <a href="#about-me">ABOUT ME</a>
         </li>
         <li>
+          <Link to="contact_me">
           <a href="#footer">CONTACT ME</a>
+          </Link>
         </li>
       </ul>
     </nav>

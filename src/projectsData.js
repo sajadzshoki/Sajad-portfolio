@@ -1,4 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
+import {nanoid} from 'nanoid'
 import mui from './images/mui.png'
 import crypto from './images/crypto.png'
 import login from './images/login.png'
@@ -8,10 +9,19 @@ import passgenerator from './images/passgenerator.png'
 import counter from './images/counter.png'
 import clock from './images/clock.png'
 import portfolio from './images/portfolio.png'
-
+import budget from './images/budget.png'
 export default [
   {
-    id:1,
+    id:nanoid(),
+    image: budget,
+    title: "Budget Manager",
+    description: "A Budget Manager App Which I made to practice useContext Hook in React and I used bootstrap for the first time",
+    githubLink: "https://github.com/sajadzshoki/budget-manager",
+    projectDemo: "https://sajadzshoki.github.io/budget-manager/",
+    Technologies:"ReactJS , Bootstrap"
+  },
+  {
+    id:nanoid(),
     image: mui,
     title: "Social Media",
     description: "A simple Responsive social media app UI which I made with ReactJS and Material UI just to test and show my skills in using different libraries ",
@@ -20,7 +30,7 @@ export default [
     Technologies:"ReactJS , Material UI"
   },
   {
-    id:2,
+    id:nanoid(),
     image: mytones,
     title: "Mytones",
     description: `The first website I made with pure "Html , Css" .
@@ -30,7 +40,7 @@ export default [
     Technologies:"Html , Css"
   },
   {
-    id:3,
+    id:nanoid(),
     image: crypto,
     title: "Crypto Prices",
     description: "A ReactJS crypto price tracker App using a free Api.",
@@ -39,7 +49,7 @@ export default [
     Technologies:"ReactJS , Css"
   },
   {
-    id:4,
+    id:nanoid(),
     image: login,
     title: "SignUp & LogIn Page",
     description: `I used this page in the "Mytones" project . it has a quite attractive animation which switch the the panels when you click on signup and signin button`,
@@ -48,7 +58,7 @@ export default [
     Technologies:"Html , Css"
   },
   {
-    id:5,
+    id:nanoid(),
     image: notes,
     title: "Notes App",
     description: "A simple notes app that you can Add and Remove your notes and it stores in your local storage . I made this app to master my skills while I was learning React states ",
@@ -57,7 +67,7 @@ export default [
     Technologies:"ReactJS  ,Css"
   },
   {
-    id:6,
+    id:nanoid(),
     image: passgenerator,
     title: "Password Generator",
     description: "A full password generator that you can choose what things you want to include in your password and it's length. Made with ReactJS",
@@ -66,7 +76,7 @@ export default [
     Technologies:"ReactJS  ,Css"
   },
   {
-    id:7,
+    id:nanoid(),
     image: clock,
     title: "Digital Clock ",
     description: "A simple Clock which I made for practice when I  started to learn JavaScript ",
@@ -75,7 +85,7 @@ export default [
     Technologies:"Html , Css , JavaScript"
   },
   {
-    id:8,
+    id:nanoid(),
     image: counter,
     title: "Counter",
     description: "My first Project with Javascript ",
@@ -84,7 +94,7 @@ export default [
     Technologies:"Html , Css , JavaScript"
   },
   {
-    id:9,
+    id:nanoid(),
     image: portfolio,
     title: "Portfolio",
     description: "The website you are currently watching :)",
