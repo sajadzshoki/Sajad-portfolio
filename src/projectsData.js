@@ -10,7 +10,18 @@ import counter from './images/counter.png'
 import clock from './images/clock.png'
 import portfolio from './images/portfolio.png'
 import budget from './images/budget.png'
+import youtube from './images/youtube.png'
+
 export default [
+  {
+    id:nanoid(),
+    image: youtube,
+    title: "YouTube Clone",
+    description: "YouTube Clone using Rapid-API",
+    githubLink: "https://github.com/sajadzshoki/Youtube-Clone",
+    projectDemo: "https://sajadzshoki.github.io/Youtube-Clone/",
+    Technologies:"ReactJS , Material UI , Rapid-API"
+  },
   {
     id:nanoid(),
     image: budget,

@@ -18,7 +18,7 @@ const AllProjects = () => {
   })
   return (
     <div >
-      <h1 className="all-projects-header header">All Of My projects</h1>
+      <h1 className="all-projects-header header">All Of My Projects</h1>
       <section className="all-projects">{projects}</section>
     </div>
   );

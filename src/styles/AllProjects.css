@@ -21,7 +21,7 @@
 .all-project-card {
   width: 90%;
   min-height: 250px;
-  border-radius: 50px;
+  border-radius: 30px;
   background-color: var(--gray-darker);
   display: flex;
   flex-direction: row;
@@ -93,7 +93,7 @@ width: 17rem;
     width: 70%;
     padding: 1rem;
     min-height: 250px;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: var(--gray-darker);
     display: flex;
     flex-direction: column;
