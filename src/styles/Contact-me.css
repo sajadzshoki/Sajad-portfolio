@@ -1,11 +1,12 @@
 .contact-me {
   background-color: var(--gray);
-  height: 100vh;
+  height: 90vh;
   padding: 1rem;
+  
 }
 .contact-container{
     background-color: var(--gray-darker);
-    width: 40%;
+    width: 50%;
     margin:2rem auto;
     border-radius: 10px;
     padding: 1rem;
@@ -13,8 +14,8 @@
 .contact-form{
     margin: auto;
     display: flex;
-    gap: 1rem;
     flex-direction: column;
+    gap: 1rem;
     width:80%;
 }
 input{
@@ -26,8 +27,29 @@ input{
     margin: 0.5rem 0rem;
     
 }
+textarea{
+    resize: vertical;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 0.5rem 0rem;
+}
 .input-label{
     display: flex;
     flex-direction: column;
 
+}
+.contact-btn{
+    width: 30%;
+}
+@media screen and (max-width: 750px){
+    .contact-container{
+       
+        width: 95%;
+   
+    }
+    .contact-form{
+        width:90%;
+    }
 }

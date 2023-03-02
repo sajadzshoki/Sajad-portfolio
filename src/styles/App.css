@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior:smooth
+}
 /* --------------------------------- colors --------------------------------- */
 :root {
   --white: rgb(255, 255, 255);
@@ -49,6 +52,8 @@ p , label {
   padding: 0.8rem;
   box-shadow: inset 0px 0px 5px var(--black);
   font-size: 1rem;
+  cursor: pointer;
+  
 }
 .btn:hover {
   box-shadow: 0px 0px 10px var(--gray-light);
@@ -89,6 +94,10 @@ p , label {
 .navbar ul li:hover {
   background-color: var(--gray-light);
   border-radius: 10px;
+}
+.active{
+  color: #3fd300;
+
 }
 /* ------------------------------ social media ------------------------------ */
 .social-media {

@@ -3,16 +3,26 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
+  const goToTop =()=>{
+    window.scroll({
+      top: 0, 
+      behavior: 'smooth' 
+     });
+  }
+const handleClick = (e) =>{
+e.classList.toggle("active")
+}
   return (
     <nav className="navbar">
       <ul>
-        <li>
+        <li onClick={goToTop}>
           <Link to="/">
             <a href="">HOME</a>
           </Link>
         </li>
         <li className="nav-skills">
-          <a href="#skill" >MY SKILLS</a>
+          <a href="#skill" onClick={handleClick}>MY SKILLS</a>
         </li>
         <li>
           <a href="#project">MY PROJECTS</a>

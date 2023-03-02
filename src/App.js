@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <SocialMedia />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" exact element={<HomePage />} />
         <Route path="/all_projects" element={<AllProjects />} />
         <Route path="/contact_me" element={<Contact />} />
       </Routes>
