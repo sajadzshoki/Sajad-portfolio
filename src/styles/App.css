@@ -9,20 +9,24 @@ html{
 }
 /* --------------------------------- colors --------------------------------- */
 :root {
-  --white: rgb(255, 255, 255);
-  --black: rgb(0, 0, 0);
-  --black-low: rgba(0, 0, 0, 0.7);
-  --gray: rgb(40, 44, 49);
+  --white: #ffffff;
+  --black: #000000;
+  --black-low: #000000b3;
   --gray-light: #626367;
+  --gray: #282c31;
   --gray-dark: #1a1d26;
   --gray-darker: #0c0f18;
   --my-green: #a2ff00;
   --my-green-dark: #3fd300;
 }
+:root{
+  --gray-dark:linear-gradient(-90deg, rgb(58, 60, 65) -20%, rgba(26,29,38,1) 100%);
+  
+}
 
 /* ---------------------------------- utils --------------------------------- */
 body {
-  background-color: var(--gray-dark);
+  background: var(--gray-dark);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* font-family: "Sofia", sans-serif; */
@@ -78,6 +82,7 @@ p , label {
   display: flex;
   justify-content: center;
   align-items: baseline;
+  backdrop-filter: blur(10px);
 }
 .navbar ul {
   display: flex;
