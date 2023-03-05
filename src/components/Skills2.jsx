@@ -10,7 +10,7 @@ import tailwind from "../images/logos/tailwind.png";
 const Skills2 = () => {
   return (
     <>
-      <h1 className="skills-header header">My Skills</h1>
+      <h1 className="skills-header header" id="skill">My Skills</h1>
     <div className="skills2">
       <div className="skills2-icons">
         <div className="logo-container html">
