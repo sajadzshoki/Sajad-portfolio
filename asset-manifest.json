@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-sajad/static/css/main.2fb63783.css",
+    "main.js": "/portfolio-sajad/static/js/main.717cb149.js",
+    "static/media/mypic.png": "/portfolio-sajad/static/media/mypic.7bb9bb0e8337b167e085.png",
+    "static/media/mui.png": "/portfolio-sajad/static/media/mui.1fa0197b1f9e8d01d7cb.png",
+    "static/media/youtube.png": "/portfolio-sajad/static/media/youtube.3ba5d5219c478b1b9707.png",
+    "static/media/mytones2.png": "/portfolio-sajad/static/media/mytones2.46bc3768d24f5b1b4bb5.png",
+    "static/media/mytones.png": "/portfolio-sajad/static/media/mytones.6de62e9fda292f079803.png",
+    "static/media/iphone.png": "/portfolio-sajad/static/media/iphone.dbbfb725f13bd2bc5a94.png",
+    "static/media/portfolio.png": "/portfolio-sajad/static/media/portfolio.cd1a8bc33ab8a425975b.png",
+    "static/media/clock.png": "/portfolio-sajad/static/media/clock.effb96fe619f8e3cb71d.png",
+    "static/media/react.png": "/portfolio-sajad/static/media/react.6bcffb56bd0efaa47767.png",
+    "static/media/login.png": "/portfolio-sajad/static/media/login.a42df473051709c8bf3f.png",
+    "static/media/bootstrap.png": "/portfolio-sajad/static/media/bootstrap.a692f04a045f8133192d.png",
+    "static/media/crypto.png": "/portfolio-sajad/static/media/crypto.9c46aeaf60a3bbafeb85.png",
+    "static/media/passgenerator.png": "/portfolio-sajad/static/media/passgenerator.3bf06a29e2555843e187.png",
+    "static/media/budget.png": "/portfolio-sajad/static/media/budget.2af6e6af0b1052eba7b8.png",
+    "static/media/counter.png": "/portfolio-sajad/static/media/counter.e7e94a71b50fdb377407.png",
+    "static/media/notes.png": "/portfolio-sajad/static/media/notes.e80ce3264b35f1991190.png",
+    "static/media/tailwind.png": "/portfolio-sajad/static/media/tailwind.8e81e4c5944b034a5865.png",
+    "static/media/redux.png": "/portfolio-sajad/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/html.png": "/portfolio-sajad/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/js.png": "/portfolio-sajad/static/media/js.266bd9fb2663dcc057b4.png",
+    "index.html": "/portfolio-sajad/index.html",
+    "main.2fb63783.css.map": "/portfolio-sajad/static/css/main.2fb63783.css.map",
+    "main.717cb149.js.map": "/portfolio-sajad/static/js/main.717cb149.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fb63783.css",
+    "static/js/main.717cb149.js"
+  ]
+}
