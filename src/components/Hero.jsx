@@ -11,7 +11,7 @@ const Home = () => {
           <br />a Front-End Developer
         </h1>
         <p>
-          You are in the right place if you need a teen  high-skill developer{"  "}
+          You are in the right place if you need a young talented developer with high skill{"  "}
            <i class="bx bx-happy-heart-eyes bx-flashing"></i>
         </p>
         <div className="btn-group">
