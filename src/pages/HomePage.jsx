@@ -6,17 +6,15 @@ import React from "react";
 import Hero from "../components/Hero";
 
 
-import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import AboutMe from "../components/AboutMe";
+import Skills2 from "../components/Skills2";
 
 function HomePage() {
   return (
     <React.Fragment>
-     
-      
       <Hero />
-      <Skills />
+      <Skills2 />
       <Projects />
       <AboutMe/>
     </React.Fragment>

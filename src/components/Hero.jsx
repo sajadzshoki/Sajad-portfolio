@@ -11,8 +11,8 @@ const Home = () => {
           <br />a Front-End Developer
         </h1>
         <p>
-          Im very Happy You are here{" "}
-          <i class="bx bx-happy-heart-eyes bx-flashing"></i>
+          You are in the right place if you need a teen  high-skill developer{"  "}
+           <i class="bx bx-happy-heart-eyes bx-flashing"></i>
         </p>
         <div className="btn-group">
           <a href="#about-me">

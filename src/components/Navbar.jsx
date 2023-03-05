@@ -12,8 +12,6 @@ const Navbar = () => {
      });
   }
 
-
-
   return (                        
     <nav className="navbar">
       <ul>
@@ -23,17 +21,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-skills">
-          <a href="#skill" >MY SKILLS</a>
+          <a href="/#skill" >MY SKILLS</a>
         </li>
         <li>
-          <a href="#project">MY PROJECTS</a>
+          <a href="/#project">MY PROJECTS</a>
         </li>
         <li>
-          <a href="#about-me">ABOUT ME</a>
+          <a href="/#about-me">ABOUT ME</a>
         </li>
         <li>
           <Link to="contact_me">
-          <a href="#footer">CONTACT ME</a>
+          <a href="/#footer">CONTACT ME</a>
           </Link>
         </li>
       </ul>

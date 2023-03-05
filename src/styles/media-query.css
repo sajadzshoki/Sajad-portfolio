@@ -29,7 +29,6 @@
   }
 
   .home-texts h1 {
-
     font-size: 2rem;
   }
 
@@ -42,19 +41,16 @@
     margin-top: -1rem;
   }
 
-  /* --------------------------------- skills --------------------------------- */
-  .skills-header {
-    margin-top: 4rem;
-  }
 
-  .skills-box {
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
-
-  .skills-box i {
-    font-size: 4rem;
+  /* --------------------------------- skills2 -------------------------------- */
+  .skills2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #0c0f18; */
   }
 
   /* ------------------------------ image-project ----------------------------- */
@@ -64,7 +60,7 @@
 
   .main-project-image {
     width: 100%;
-   
+
   }
 
   .iphone {
@@ -93,12 +89,18 @@
     margin-top: 4rem;
   }
 }
+
 /* ---------------------------------- phone --------------------------------- */
 
 @media screen and (max-width: 600px) {
+  .home {
+    flex-direction: column;
+    margin: 0rem 2rem;
+    justify-content: center;
+    align-items: center;
+  }
   .home-texts h1 {
-
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 
 
@@ -127,7 +129,7 @@
     gap: 1rem;
     position: sticky;
     top: 3rem;
-    left: 28%;
+    left: 24%;
     z-index: 10;
   }
 
@@ -157,10 +159,34 @@
   .about-me-container {
     width: 90%;
   }
-  .main-project-image:hover~.iphone{
+
+  .main-project-image:hover~.iphone {
     right: 28%;
     transform: scale(1.2);
   }
+/* --------------------------------- skills2 -------------------------------- */
+@keyframes skills-circle{
+  from{
+    transform: rotate(0deg) scale(0.5);
+  }
+  to{
+    transform: rotate(360deg) scale(0.5);
+  }
+  
+
+}
+.skills2-icons{
+  transform: scale(0.5);
+  
+}
+.skills2-info{
+  width: 300px;
+  /* background-color: #626367; */
+  padding: 0rem;
+}
+
+
+/* -------------------------------- about me -------------------------------- */
   .about-me-header {
     font-size: 4rem;
   }
@@ -177,6 +203,7 @@
 
   .about-me-texts {
     margin-left: 1rem;
+    padding-right: 0;
   }
 
   .about-me-texts h1 {
