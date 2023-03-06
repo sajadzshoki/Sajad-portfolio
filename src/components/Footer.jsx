@@ -27,11 +27,11 @@ const Footer = (props) => {
               <div className="footer-projects">
                 <h2>My Best Projects so far</h2>
                 <p>
-                  <a href="https://github.com/sajadzshoki/Mytones">Mytones</a>
+                  <a href="https://sajadzshoki.github.io/Mytones/">Mytones</a>
                 </p>
                 <p>
-                  <a href="https://github.com/sajadzshoki/social-media-react-mui">
-                    Social Media
+                  <a href="https://youtube-clone-sajad.vercel.app">
+                    Youtube Clone
                   </a>
                 </p>
               </div>
@@ -40,7 +40,7 @@ const Footer = (props) => {
                 <p>Html</p>
                 <p>Css</p>
                 <p>JavaScript</p>
-                <p>React</p>
+                <p>ReactJs</p>
               </div>
             </div>
           </div>

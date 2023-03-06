@@ -42,8 +42,8 @@
   }
 
 
-  /* --------------------------------- skills2 -------------------------------- */
-  .skills2 {
+  /* --------------------------------- skills -------------------------------- */
+  .skills {
     width: 80%;
     margin: auto;
     display: flex;
@@ -164,7 +164,7 @@
     right: 28%;
     transform: scale(1.2);
   }
-/* --------------------------------- skills2 -------------------------------- */
+/* --------------------------------- skills -------------------------------- */
 @keyframes skills-circle{
   from{
     transform: rotate(0deg) scale(0.5);
@@ -175,11 +175,11 @@
   
 
 }
-.skills2-icons{
+.skills-icons{
   transform: scale(0.5);
   
 }
-.skills2-info{
+.skills-info{
   width: 300px;
   /* background-color: #626367; */
   padding: 0rem;
