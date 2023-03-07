@@ -19,7 +19,7 @@ export default [
     title: "YouTube Clone",
     description: "YouTube Clone using Rapid-API",
     githubLink: "https://github.com/sajadzshoki/Youtube-Clone",
-    projectDemo: "https://sajadzshoki.github.io/Youtube-Clone/",
+    projectDemo: "https://youtube-clone-sajad.vercel.app",
     Technologies:"ReactJS , Material UI , Rapid-API"
   },
   {
@@ -110,7 +110,7 @@ export default [
     title: "Portfolio",
     description: "The website you are currently watching :)",
     githubLink: "https://github.com/sajadzshoki/Sajad-portfolio",
-    projectDemo: "https://sajad-portfolio.netlify.app/",
+    projectDemo: "https://sajad-portfolio.vercel.app/",
     Technologies:"ReactJs , Css "
   },
 
