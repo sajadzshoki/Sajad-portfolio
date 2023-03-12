@@ -1,7 +1,7 @@
 # MY PERSONAL PORTFOLIO WEBSITE
 
 
-live demo : https://sajad-portfolio.netlify.app/
+live demo : https://sajad-portfolio.vercel.app/
 
 # Getting Started with Create React App
 
