@@ -1,4 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
+
 import {nanoid} from 'nanoid'
 import mui from './images/mui.png'
 import crypto from './images/crypto.png'
@@ -17,7 +18,7 @@ export default [
     id:nanoid(),
     image: youtube,
     title: "YouTube Clone",
-    description: "YouTube Clone using Rapid-API",
+    description: "Simplified version of youtube usuing a real API (RapidAPI) to master my skills in using real data",
     githubLink: "https://github.com/sajadzshoki/Youtube-Clone",
     projectDemo: "https://youtube-clone-sajad.vercel.app",
     Technologies:"ReactJS , Material UI , Rapid-API"

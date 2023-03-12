@@ -105,7 +105,7 @@ label {
   list-style: none;
   padding: 0.8rem;
   margin: 0.2rem;
-  transition: 0.2s all;
+  transition: 0.2s ease-in-out all;
 }
 
 .navbar ul li:hover {
@@ -118,6 +118,7 @@ label {
 }
 .dropdown ul{
   gap: 0rem;
+  
 }
 .dropdown:hover .dropdown-menu{
   visibility: visible;
@@ -130,19 +131,23 @@ label {
   flex-direction: column;
   top: 3rem;
   right: -25px;
-  background-color: var(--black);
+  background: var(--black);
   border-radius: 15px;
   padding: 0.5rem 0rem;
+  font-size: 0.9rem;
   
 }
 .dropdown-menu li{
-  width: 10rem;
-  /* height: 2rem; */
+  width: 11rem;
+  height: 2.3rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
+  
+  
 }
+
 
 
 /* ------------------------------ social media ------------------------------ */

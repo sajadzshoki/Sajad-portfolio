@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
-import projectsData from '../projectsData';
+import projectsData from "../projectsData";
 const Navbar = () => {
   const goToTop = () => {
     window.scroll({
@@ -23,26 +23,24 @@ const Navbar = () => {
         </li>
         <li className="dropdown">
           <a href="/#project">MY PROJECTS</a>
-          <ul className="dropdown-menu">
+            <ul className="dropdown-menu">
+          {projectsData.map((project) => (
+              <li>
+                <a href={project.projectDemo} key={project.id}>
+                  {project.title}
+                </a>
+              </li>
+          ))}
+            </ul>
+          {/* <ul className="dropdown-menu">
             <li>
               <a href="#">Youtube Clone</a>
             </li>
             <li>
               <a href="#">budget manager</a>
             </li>
-            <li>
-              <a href="#">mytones</a>
-            </li>
-            <li>
-              <a href="#">mytones</a>
-            </li>
-            <li>
-              <a href="#">mytones</a>
-            </li>
-            <li>
-              <a href="#">mytones</a>
-            </li>
-          </ul>
+       
+          </ul> */}
         </li>
         <li>
           <a href="/#about-me">ABOUT ME</a>
