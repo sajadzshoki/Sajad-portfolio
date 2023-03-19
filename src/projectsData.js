@@ -65,8 +65,8 @@ export default [
     image: login,
     title: "SignUp & LogIn Page",
     description: `I used this page in the "Mytones" project . it has a quite attractive animation which switch the the panels when you click on signup and signin button`,
-    githubLink: "https://github.com/sajadzshoki/Mytones",
-    projectDemo: "https://sajadzshoki.github.io/Mytones/",
+    githubLink: "https://github.com/sajadzshoki/Mytones/tree/master/login-page",
+    projectDemo: "https://sajadzshoki.github.io/Mytones/login-page/login-page.html",
     Technologies:"Html , Css"
   },
   {
