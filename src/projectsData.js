@@ -12,8 +12,18 @@ import clock from './images/clock.png'
 import portfolio from './images/portfolio.png'
 import budget from './images/budget.png'
 import youtube from './images/youtube.png'
+import quizzical from './images/quizzical.png'
 
 export default [
+  {
+    id:nanoid(),
+    image: quizzical,
+    title: "Quizzical",
+    description: "A cool Q & A game I made with open trivia api .",
+    githubLink: "https://github.com/sajadzshoki/quizzical",
+    projectDemo: "https://quizzical-sajad.vercel.app",
+    Technologies:"ReactJS , css , openTrivia api"
+  },
   {
     id:nanoid(),
     image: youtube,

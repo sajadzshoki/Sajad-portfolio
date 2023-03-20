@@ -148,7 +148,13 @@ label {
   
 }
 
-
+.bx-menu{
+  display: none;
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  
+}
 
 /* ------------------------------ social media ------------------------------ */
 .social-media {
@@ -252,17 +258,6 @@ label {
   animation-play-state: paused;
 }
 
-.stop-animation{
-  animation: logos-circle 15s infinite linear ;
-  
-  position: absolute;
-  top: 50%;
-  left: 41%;
-  
-}
-.stop-animation:hover{
-  animation-play-state: paused;
-}
 .logo-container{
   background-color: rgba(187, 227, 227, 0.141);
   backdrop-filter: blur(5px);
@@ -340,7 +335,6 @@ label {
 }
 .html:hover , .css:hover , .js:hover , .git:hover , .tailwind:hover , .react:hover , .redux:hover , .nextjs:hover {
   box-shadow: var(--gray-light) 0px 0px 20px;
-  animation-play-state: paused;
   
 }
 

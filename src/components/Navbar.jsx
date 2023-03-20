@@ -1,19 +1,37 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React
+//{ useState } 
+from "react";
 import { Link } from "react-router-dom";
 import projectsData from "../projectsData";
 const Navbar = () => {
+  // const [showNavbar, setShowNavbar] = useState(true);
+
+  // const styles = {
+  //   display: showNavbar ? "none" : "flex",
+  //   flexDirection: showNavbar ? "row" : "column",
+  // };
+
+  // const handleOnClick = () => {
+  //   setShowNavbar((prevState) => !prevState);
+  // };
   const goToTop = () => {
     window.scroll({
       top: 0,
-      behavior: "smooth",
     });
   };
 
   return (
-    <nav className="navbar">
-      <ul>
+    <nav
+      className="navbar"
+      //style={{ justifyContent: showNavbar ? "flex-start" : "flex-start" }}
+    >
+      {/* <i class="bx bx-menu" onClick={handleOnClick}></i> */}
+      <ul
+      //style={styles}
+      >
         <li onClick={goToTop}>
+          
           <Link to="/">
             <a href="#home">HOME</a>
           </Link>
@@ -23,24 +41,15 @@ const Navbar = () => {
         </li>
         <li className="dropdown">
           <a href="/#project">MY PROJECTS</a>
-            <ul className="dropdown-menu">
-          {projectsData.map((project) => (
+          <ul className="dropdown-menu">
+            {projectsData.map((project) => (
               <li>
                 <a href={project.projectDemo} key={project.id}>
                   {project.title}
                 </a>
               </li>
-          ))}
-            </ul>
-          {/* <ul className="dropdown-menu">
-            <li>
-              <a href="#">Youtube Clone</a>
-            </li>
-            <li>
-              <a href="#">budget manager</a>
-            </li>
-       
-          </ul> */}
+            ))}
+          </ul>
         </li>
         <li>
           <a href="/#about-me">ABOUT ME</a>
