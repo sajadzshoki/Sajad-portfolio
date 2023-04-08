@@ -1,4 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
+
 import {nanoid} from 'nanoid'
 import mui from './images/mui.png'
 import crypto from './images/crypto.png'
@@ -11,15 +12,25 @@ import clock from './images/clock.png'
 import portfolio from './images/portfolio.png'
 import budget from './images/budget.png'
 import youtube from './images/youtube.png'
+import quizzical from './images/quizzical.png'
 
 export default [
   {
     id:nanoid(),
+    image: quizzical,
+    title: "Quizzical",
+    description: "A cool Q & A game I made with open trivia api .",
+    githubLink: "https://github.com/sajadzshoki/quizzical",
+    projectDemo: "https://quizzical-sajad.vercel.app",
+    Technologies:"ReactJS , css , openTrivia api"
+  },
+  {
+    id:nanoid(),
     image: youtube,
     title: "YouTube Clone",
-    description: "YouTube Clone using Rapid-API",
+    description: "Simplified version of youtube usuing a real API (RapidAPI) to master my skills in using real data",
     githubLink: "https://github.com/sajadzshoki/Youtube-Clone",
-    projectDemo: "https://sajadzshoki.github.io/Youtube-Clone/",
+    projectDemo: "https://youtube-clone-sajad.vercel.app",
     Technologies:"ReactJS , Material UI , Rapid-API"
   },
   {
@@ -64,8 +75,8 @@ export default [
     image: login,
     title: "SignUp & LogIn Page",
     description: `I used this page in the "Mytones" project . it has a quite attractive animation which switch the the panels when you click on signup and signin button`,
-    githubLink: "https://github.com/sajadzshoki/Mytones",
-    projectDemo: "https://sajadzshoki.github.io/Mytones/",
+    githubLink: "https://github.com/sajadzshoki/Mytones/tree/master/login-page",
+    projectDemo: "https://sajadzshoki.github.io/Mytones/login-page/login-page.html",
     Technologies:"Html , Css"
   },
   {
@@ -110,7 +121,7 @@ export default [
     title: "Portfolio",
     description: "The website you are currently watching :)",
     githubLink: "https://github.com/sajadzshoki/Sajad-portfolio",
-    projectDemo: "https://sajad-portfolio.netlify.app/",
+    projectDemo: "https://sajad-portfolio.vercel.app/",
     Technologies:"ReactJs , Css "
   },
 

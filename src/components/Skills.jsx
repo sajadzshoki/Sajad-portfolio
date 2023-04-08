@@ -38,7 +38,7 @@ const Skills = () => {
           <img src={nextjs} alt="nextjs" className="logo" title="nextjs"/>
         </div>
         <div className="cirlce-line"></div>
-        <h2 className="stop-animation"> Hover to stop</h2>
+        
 
       </div>
       <div className="skills-info">

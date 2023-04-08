@@ -6,7 +6,7 @@
 }
 
 html {
-   
+   scroll-behavior: smooth;
 }
 
 /* --------------------------------- colors --------------------------------- */
@@ -98,23 +98,62 @@ label {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  
 }
 
 .navbar ul li {
   list-style: none;
   padding: 0.8rem;
   margin: 0.2rem;
-  transition: 0.2s all;
+  transition: 0.2s ease-in-out all;
 }
 
 .navbar ul li:hover {
   background-color: var(--gray-light);
   border-radius: 10px;
 }
+.dropdown{
+  position: relative;
+  
+}
+.dropdown ul{
+  gap: 0rem;
+  
+}
+.dropdown:hover .dropdown-menu{
+  visibility: visible;
+  
+}
+.dropdown-menu{
+  position: absolute;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  top: 3rem;
+  right: -25px;
+  background: var(--black);
+  border-radius: 15px;
+  padding: 0.5rem 0rem;
+  font-size: 0.9rem;
+  
+}
+.dropdown-menu li{
+  width: 11rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  
+  
+}
 
-.active {
-  color: #3fd300;
-
+.bx-menu{
+  display: none;
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  
 }
 
 /* ------------------------------ social media ------------------------------ */
@@ -221,6 +260,7 @@ label {
   animation-play-state: paused;
 }
 
+
 .stop-animation {
   animation: logos-circle 15s infinite linear;
 
@@ -234,7 +274,7 @@ label {
   animation-play-state: paused;
 }
 
-.logo-container {
+.logo-container{
   background-color: rgba(187, 227, 227, 0.141);
   backdrop-filter: blur(5px);
   border-radius: 50%;
@@ -329,7 +369,11 @@ label {
 .redux:hover,
 .nextjs:hover {
   box-shadow: var(--gray-light) 0px 0px 20px;
+
   animation-play-state: paused;
+
+
+  
 
 }
 
@@ -460,6 +504,7 @@ label {
   box-shadow: 0px 0px 40px var(--gray-light);
 
 }
+
 
 .main-project-image:hover~.iphone {
   margin-left: 50px;
