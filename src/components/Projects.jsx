@@ -7,6 +7,7 @@ import quizzical from "../images/quizzical.png";
 import mui_phone from "../images/mui_phone.png";
 import mytones_phone from "../images/mytones_phone.png";
 import quizzical_phone from "../images/quizzical_phone.png";
+import youtube_phone from "../images/youtube_phone.png";
 
 const Projects = () => {
 
@@ -83,7 +84,7 @@ const Projects = () => {
           <a href="https://youtube-clone-sajad.vercel.app">
             <img
               alt="project"
-              src={mui_phone}
+              src={youtube_phone}
               className="iphone"
               title="go to website"
             />
