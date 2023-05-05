@@ -253,24 +253,10 @@ label {
   width: 500px;
   height: 500px;
   position: relative;
-  animation: skills-circle 15s infinite linear;
+  animation: skills-circle 30s infinite linear;
 }
 
 .skills-icons:hover {
-  animation-play-state: paused;
-}
-
-
-.stop-animation {
-  animation: logos-circle 15s infinite linear;
-
-  position: absolute;
-  top: 50%;
-  left: 41%;
-
-}
-
-.stop-animation:hover {
   animation-play-state: paused;
 }
 
@@ -307,7 +293,7 @@ label {
   position: absolute;
   top: 0;
   right: 45%;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 
 }
 
@@ -315,49 +301,49 @@ label {
   position: absolute;
   bottom: 0;
   right: 45%;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 }
 
 .react {
   position: absolute;
   top: 45%;
   right: 0px;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 }
 
 .js {
   position: absolute;
   top: 45%;
   left: 0;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 }
 
 .redux {
   position: absolute;
   top: 14%;
   left: 10%;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 }
 
 .git {
   position: absolute;
   top: 14%;
   right: 10%;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 }
 
 .tailwind {
   position: absolute;
   bottom: 14%;
   right: 12%;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 }
 
 .nextjs {
   position: absolute;
   bottom: 14%;
   left: 12%;
-  animation: logos-circle 15s infinite linear;
+  animation: logos-circle 30s infinite linear;
 }
 
 .html:hover,
@@ -369,12 +355,7 @@ label {
 .redux:hover,
 .nextjs:hover {
   box-shadow: var(--gray-light) 0px 0px 20px;
-
   animation-play-state: paused;
-
-
-  
-
 }
 
 

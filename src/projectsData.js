@@ -13,6 +13,7 @@ import portfolio from './images/portfolio.png'
 import budget from './images/budget.png'
 import youtube from './images/youtube.png'
 import quizzical from './images/quizzical.png'
+import react_native_nft from './images/react_native_nft.png'
 
 export default [
   {
@@ -23,6 +24,15 @@ export default [
     githubLink: "https://github.com/sajadzshoki/quizzical",
     projectDemo: "https://quizzical-sajad.vercel.app",
     Technologies:"ReactJS , css , openTrivia api"
+  },
+  {
+    id:nanoid(),
+    image: react_native_nft,
+    title: "NFT marketplace",
+    description: "My react native project to show my skills in android/ios development.",
+    githubLink: "https://github.com/sajadzshoki/react-native-nft",
+    projectDemo: "https://react-native-nft-showcase.vercel.app/",
+    Technologies:"React Native , JS"
   },
   {
     id:nanoid(),
