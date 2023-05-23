@@ -14,6 +14,7 @@ import budget from './images/budget.png'
 import youtube from './images/youtube.png'
 import quizzical from './images/quizzical.png'
 import react_native_nft from './images/react_native_nft.png'
+import threejs from './images/threejs.png'
 
 export default [
   {
@@ -24,6 +25,15 @@ export default [
     githubLink: "https://github.com/sajadzshoki/quizzical",
     projectDemo: "https://quizzical-sajad.vercel.app",
     Technologies:"ReactJS , css , openTrivia api"
+  },
+  {
+    id:nanoid(),
+    image: threejs,
+    title: "3D Tshirt Design",
+    description: "A Tshirt Design website powered by 'ThreeJs' library which you can handle lighting , camera position and ...",
+    githubLink: "https://github.com/sajadzshoki/Threejs-Tshirt",
+    projectDemo: "https://threejs-tshirt-sajad.vercel.app/",
+    Technologies:"ReactJS , Threejs"
   },
   {
     id:nanoid(),
