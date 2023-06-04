@@ -15,8 +15,18 @@ import youtube from './images/youtube.png'
 import quizzical from './images/quizzical.png'
 import react_native_nft from './images/react_native_nft.png'
 import threejs from './images/threejs.png'
+import task_manager from './images/task_manager.png'
 
 export default [
+  {
+    id:nanoid(),
+    image: task_manager,
+    title: "Task Manager",
+    description: "my best a biggest project im currently working on . a complex full task manager with diferent section like to do list , finance manager and ...",
+    githubLink: "https://github.com/sajadzshoki/task_manager",
+    projectDemo: "https://Task-manager-sajad.vercel.app",
+    Technologies:"ReactTs , Tailwind, Redux , Syncfusion"
+  },
   {
     id:nanoid(),
     image: quizzical,
