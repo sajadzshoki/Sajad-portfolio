@@ -11,8 +11,15 @@ const Home = () => {
           <br />a Front-End Developer
         </h1>
         <p>
-          You are in the right place if you need a young talented developer with high skill{"  "}
-           <i class="bx bx-happy-heart-eyes bx-flashing"></i>
+          I am a motivated and passionate developer with a strong focus on
+          Front-end development. Over the past two years, I have self-studied
+          Front-End development, specializing in React.js, and have gained
+          extensive knowledge of it’s features and libraries. I am committed to
+          continuous learning and am driven by a desire to enhance my skills in
+          a professional environment. I am actively seeking opportunities to
+          collaborate with innovative companies where I can contribute to
+          impactful projects and grow within the industry.
+          <i class="bx bx-happy-heart-eyes bx-flashing"></i>
         </p>
         <div className="btn-group">
           <a href="#about-me">

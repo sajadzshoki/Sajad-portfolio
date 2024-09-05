@@ -25,7 +25,7 @@ export default [
     description: "my best a biggest project im currently working on . a complex full task manager with diferent section like to do list , finance manager and ...",
     githubLink: "https://github.com/sajadzshoki/task_manager",
     projectDemo: "https://Task-manager-sajad.vercel.app",
-    Technologies:"ReactTs , Tailwind, Redux , Syncfusion"
+    Technologies:"ReactTs , Tailwind, zustand "
   },
   {
     id:nanoid(),

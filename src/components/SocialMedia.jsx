@@ -10,7 +10,7 @@ const SocialMedia = () => {
       </button>
 
       <button className="social-media-btn">
-        <a href="https://www.linkedin.com/in/sajad-shokraei-786a1b232/" title="Linkedin">
+        <a href="https://www.linkedin.com/in/sajadshokraei/" title="Linkedin">
         <i class='bx bxl-linkedin' ></i>
         </a>
       </button>

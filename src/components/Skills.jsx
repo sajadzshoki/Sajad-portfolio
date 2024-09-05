@@ -5,7 +5,7 @@ import js from "../images/logos/js.png";
 import nextjs from "../images/logos/nextjs.png";
 import git from "../images/logos/git.png";
 import react from "../images/logos/react.png";
-import redux from "../images/logos/redux.png";
+import zustand from "../images/logos/zustand.svg";
 import tailwind from "../images/logos/tailwind.png";
 const Skills = () => {
   return (
@@ -25,8 +25,8 @@ const Skills = () => {
         <div className="logo-container js">
           <img src={js} alt="js" className="logo" title="java script"/>
         </div>
-        <div className="logo-container redux">
-          <img src={redux} alt="redux" className="logo" title="redux"/>
+        <div className="logo-container zustand">
+          <img src={zustand} alt="zustand" className="logo" title="zustand"/>
         </div>
         <div className="logo-container git">
           <img src={git} alt="git" className="logo" title="git"/>
@@ -51,8 +51,8 @@ const Skills = () => {
           I use React as my framework due to it Possibilities and different open-source libraries so it always meets your needs in the best way possible. 
         </p>
         <p>
-          <h2>REDUX</h2>
-          When it comes to Real and big projects , I can manage the States with redux that is officially for react .
+          <h2>ZUSTAND</h2>
+          When it comes to Real and big projects , I can manage the States with zustand .
         </p>
         <p>
           <h2>NEXTJS</h2>

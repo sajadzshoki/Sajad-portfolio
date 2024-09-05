@@ -197,6 +197,7 @@ label {
 
 .home-texts {
   margin-top: 8rem;
+  max-width : 40rem;
 }
 
 .home-texts h1 {
@@ -318,7 +319,7 @@ label {
   animation: logos-circle 30s infinite linear;
 }
 
-.redux {
+.zustand {
   position: absolute;
   top: 14%;
   left: 10%;
@@ -352,7 +353,7 @@ label {
 .git:hover,
 .tailwind:hover,
 .react:hover,
-.redux:hover,
+.zustand:hover,
 .nextjs:hover {
   box-shadow: var(--gray-light) 0px 0px 20px;
   animation-play-state: paused;
