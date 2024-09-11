@@ -19,11 +19,11 @@ const Home = () => {
           a professional environment. I am actively seeking opportunities to
           collaborate with innovative companies where I can contribute to
           impactful projects and grow within the industry.
-          <i class="bx bx-happy-heart-eyes bx-flashing"></i>
+         
         </p>
         <div className="btn-group">
-          <a href="#about-me">
-            <button className="btn know-more-btn">Know More About Me</button>
+          <a href="/sajad-shokraei-resume.pdf" download>
+            <button className="btn know-more-btn">Download My Resume</button>
           </a>
           <a href="#footer">
             <button className="btn contact-me-btn">Contact Me</button>
@@ -32,7 +32,7 @@ const Home = () => {
       </div>
 
       <div className="home-image">
-        <a href="https://www.instagram.com/p/ChDAv3hsVhY/">
+        <a href="https://www.instagram.com/sajadzshoki?igsh=NXl1dGt2andvcDFh">
           <img
             alt="sajad_image"
             src={mypic}

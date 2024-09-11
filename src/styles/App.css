@@ -425,7 +425,7 @@ label {
 .main-project-container {
   display: flex;
   margin: 3rem auto;
-  overflow-x:scroll;
+  /* overflow-x:scroll; */
   width:80vw;
  scroll-behavior: smooth;
  /* background-color: #ffee00; */

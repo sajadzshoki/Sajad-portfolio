@@ -8,13 +8,16 @@ const Footer = (props) => {
           <div className="contact-info">
             <h1>How To Contact Me</h1>
             <p>
-              <i class="bx bx-envelope"></i> Email : sajadzshoki80@gmail.com
+              <i class="bx bx-envelope"></i> Email :
+              <a href="mailto:sajadzshoki80@gmail.com"> sajadzshoki80@gmail.com</a>
             </p>
             <p>
-              <i class="bx bx-phone"></i> Phone Number : +98 9109069118
+              <i class="bx bx-phone"></i> Phone Number :{" "}
+              <a href="tel:09109069118"> +98 9109069118</a>
             </p>
             <p>
-              <i class="bx bxl-telegram"></i> Telegram : @sajadzshoki
+              <i class="bx bxl-telegram"></i> Telegram :{" "}
+              <a href="https://t.me/sajadzshoki"> @Sajadzshoki</a>
             </p>
             <p>
               <i class="bx bxl-instagram"></i> Instagram :
@@ -27,7 +30,7 @@ const Footer = (props) => {
               <div className="footer-projects">
                 <h2>My Best Projects so far</h2>
                 <p>
-                  <a href="https://sajadzshoki.github.io/Mytones/">Mytones</a>
+                  <a href="https://Task-Manager-sajad.vercel.app">Task Manager</a>
                 </p>
                 <p>
                   <a href="https://youtube-clone-sajad.vercel.app">

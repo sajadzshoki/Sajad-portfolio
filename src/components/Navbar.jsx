@@ -42,9 +42,9 @@ const Navbar = () => {
         <li className="dropdown">
           <a href="/#project">MY PROJECTS</a>
           <ul className="dropdown-menu">
-            {projectsData.map((project) => (
-              <li>
-                <a href={project.projectDemo} key={project.id}>
+            {projectsData.slice(0,4).map((project) => (
+              <li key={project.id}>
+                <a href={project.projectDemo}>
                   {project.title}
                 </a>
               </li>

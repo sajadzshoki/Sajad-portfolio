@@ -21,7 +21,7 @@ const Projects = () => {
   }
   return (
     <div className="projects">
-      <button className="arrow-r btn" onClick={goRight}>
+      {/* <button className="arrow-r btn" onClick={goRight}>
         <i
           class="bx bxs-chevron-right"
           style={{color: "var(--white)" }}
@@ -32,10 +32,10 @@ const Projects = () => {
           class="bx bxs-chevron-left"
           style={{ color: "var(--white)" }}
         ></i>
-      </button>
+      </button> */}
       <h1 className="header">My Projects</h1>
       <div className="main-project-container" id="project">
-        <div className="main-project" >
+    {/*     <div className="main-project" >
           <a href="https://sajadzshoki.github.io/Mytones/">
             <img
               alt="project"
@@ -90,6 +90,7 @@ const Projects = () => {
             />
           </a>
         </div>
+        */}
         <div className="main-project">
           <a href="https://quizzical-sajad.vercel.app">
             <img
@@ -107,7 +108,7 @@ const Projects = () => {
               title="go to website"
             />
           </a>
-        </div>
+        </div> 
 
       </div>
       <Link to="/all_projects" className="projects-btn">
