@@ -16,6 +16,7 @@ import quizzical from './images/quizzical.png'
 import react_native_nft from './images/react_native_nft.png'
 import threejs from './images/threejs.png'
 import task_manager from './images/task_manager.png'
+import clothe_shop from './images/clothe_shop.png'
 
 export default [
   {
@@ -44,6 +45,15 @@ export default [
     githubLink: "https://github.com/sajadzshoki/Youtube-Clone",
     projectDemo: "https://youtube-clone-sajad.vercel.app",
     Technologies:"ReactJS , Material UI , Rapid-API"
+  },
+  {
+    id:nanoid(),
+    image: clothe_shop,
+    title: "Clothe Shop (Chatgpt)",
+    description: "No Coding ! I've build this app just using ChatGPT from scratch",
+    githubLink: "https://github.com/sajadzshoki/clothe-shop-chatgpt",
+    projectDemo: "https://clothe-shop-chatgpt.vercel.app",
+    Technologies:"ChatGPT"
   },
   {
     id:nanoid(),
