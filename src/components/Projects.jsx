@@ -1,24 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mytones2 from "../images/mytones2.png";
-import youtube from "../images/youtube.png";
-import mui from "../images/mui.png";
+// import mytones2 from "../images/mytones2.png";
+// import youtube from "../images/youtube.png";
+// import mui from "../images/mui.png";
+// import mui_phone from "../images/mui_phone.png";
+// import mytones_phone from "../images/mytones_phone.png";
+// import youtube_phone from "../images/youtube_phone.png";
 import quizzical from "../images/quizzical.png";
-import mui_phone from "../images/mui_phone.png";
-import mytones_phone from "../images/mytones_phone.png";
 import quizzical_phone from "../images/quizzical_phone.png";
-import youtube_phone from "../images/youtube_phone.png";
 
 const Projects = () => {
 
-  const goRight =()=>{
-    document.getElementById('project').scrollLeft +=1000;
+  // const goRight =()=>{
+  //   document.getElementById('project').scrollLeft +=1000;
     
-  }
-  const goLeft =()=>{
-    document.getElementById('project').scrollLeft -=1000;
+  // }
+  // const goLeft =()=>{
+  //   document.getElementById('project').scrollLeft -=1000;
     
-  }
+  // }
   return (
     <div className="projects">
       {/* <button className="arrow-r btn" onClick={goRight}>
