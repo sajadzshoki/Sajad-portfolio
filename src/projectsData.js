@@ -17,6 +17,7 @@ import react_native_nft from './images/react_native_nft.png'
 import threejs from './images/threejs.png'
 import task_manager from './images/task_manager.png'
 import clothe_shop from './images/clothe_shop.png'
+import avoburger from './images/avoburger.png'
 
 export default [
   {
@@ -35,16 +36,16 @@ export default [
     description: "A cool Q & A game I made with open trivia api .",
     githubLink: "https://github.com/sajadzshoki/quizzical",
     projectDemo: "https://quizzical-sajad.vercel.app",
-    Technologies:"ReactJS , css , openTrivia api"
+    Technologies:"ReactJS , openTrivia api"
   },
   {
     id:nanoid(),
-    image: youtube,
-    title: "YouTube Clone",
-    description: "Simplified version of youtube usuing a real API (RapidAPI) to master my skills in using real data",
-    githubLink: "https://github.com/sajadzshoki/Youtube-Clone",
-    projectDemo: "https://youtube-clone-sajad.vercel.app",
-    Technologies:"ReactJS , Material UI , Rapid-API"
+    image: avoburger,
+    title: "AvoBurger",
+    description: "Resturant web application",
+    githubLink: "https://github.com/sajadzshoki/avoburger",
+    projectDemo: "https://avoburger.vercel.app/",
+    Technologies:"ReactJS , Tailwind , Zustand"
   },
   {
     id:nanoid(),
@@ -63,6 +64,15 @@ export default [
     githubLink: "https://github.com/sajadzshoki/Threejs-Tshirt",
     projectDemo: "https://threejs-tshirt-sajad.vercel.app/",
     Technologies:"ReactJS , Threejs"
+  },
+  {
+    id:nanoid(),
+    image: youtube,
+    title: "YouTube Clone",
+    description: "Simplified version of youtube usuing a real API (RapidAPI) to master my skills in using real data",
+    githubLink: "https://github.com/sajadzshoki/Youtube-Clone",
+    projectDemo: "https://youtube-clone-sajad.vercel.app",
+    Technologies:"ReactJS , Material UI , Rapid-API"
   },
   {
     id:nanoid(),

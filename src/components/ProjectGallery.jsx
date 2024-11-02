@@ -23,7 +23,7 @@ const ProjectGallery = (props) => {
           title="Github"
           className="all-project-btn"
         >
-            Github Link
+            Repository
           <i class="bx bxl-github"></i>
         </a>
         <a href={props.projectDemo} title="Live Demo"
